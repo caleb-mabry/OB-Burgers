@@ -1,0 +1,17 @@
+html {
+    background-color: aliceblue;
+}
+/* 
+# = id
+. = class
+*/
+#container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+#pattyParts {
+    display: flex;
+    flex-direction: column;
+}
