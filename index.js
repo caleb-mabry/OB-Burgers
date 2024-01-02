@@ -17,6 +17,7 @@ const generateTheBurgermeister = async () => {
     BURGER_LOADER_CONTAINER.style.display = 'flex'
 
     BURGER_REQUEST_PROCESS_BAR.max = numberOfPattyParts
+    BURGER_REQUEST_PROCESS_BAR.value = 0
     let numberOfParts = 0
     const parts = []
     // Fetch until max
@@ -58,6 +59,7 @@ const meatStacker = (patty) => {
     const imageElement = document.createElement('img')
     // TODO Change to be image source base64
     imageElement.src = image_data
+    console.log(name)
     CONTAINER_ELEMENT.appendChild(imageElement)
 
 }
